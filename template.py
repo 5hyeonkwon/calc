@@ -1,13 +1,13 @@
-html = b"""
+html = """
 <html>
     <body>
-	<h1 id="answer"><h1>
 	<form action="">
-           first= <input type="number" name="a" id="a">
-           second = <input type="number" name="b" id="b"><br><br>
-	   <input type="submit">
+		first number = <input type = "number" name = "first_num"><br><br>
+		second number = <input type = "number" name = "second_num">
+		<input type = "submit">
 	</form>
-	<object data="txt/result.txt",border="0"></object>
+	sum = %(sum)d <br><br>
+	mul = %(mul)d
     </body>
 </html>
 """
